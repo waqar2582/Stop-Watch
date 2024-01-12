@@ -23,7 +23,7 @@ stopBtn.addEventListener("click", function () {
 resetBtn.addEventListener("click", function () {
   clearInterval(timerId);
   displayTimer.innerHTML = `00 : 00 : 00`;
-  msec = secs = mins = "00";
+  msec = secs = mins = "0";
 });
 
 function startTimer() {
